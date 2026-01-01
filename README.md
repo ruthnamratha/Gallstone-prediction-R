@@ -27,14 +27,16 @@ Models were evaluated using:
 
 ROC-based threshold tuning was applied using Youden’s J statistic.
 
-## Data Source
-Dataset obtained from Kaggle.
-The dataset is not included in this repository due to licensing restrictions.
 
-## How to Run
-1. Download the dataset from Kaggle
-2. Place it in the `data/` folder
-3. Run `scripts/00_full_analysis.R`
+## Dataset Information
+
+This folder contains the dataset used for the Gallstone Prediction project.
+
+**Source:** UCI Machine Learning Repository  
+**License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The dataset is shared and used in compliance with the CC BY 4.0 license.
+
 
 
 ## Visualizations
@@ -50,8 +52,12 @@ SHAP values were used to interpret feature contributions in the XGBoost model.
 
 ![SHAP Summary](figures/shap_summary.png)
 
+
 ### Random Forest Feature Importance
 Feature importance plot from the Random Forest model.
 
 ![Random Forest Importance](figures/random_forest_importance.png)
+
+
+
 
